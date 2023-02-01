@@ -1,0 +1,28 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/one.png",
+            "title": "My Entertainment",
+            "description": "Movies and TV Series Searching App in React JS",
+            "url": "https://entertainment007.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/2/two.png",
+            "title": "Infinity Tech",
+            "description": "Website using Html, Css & Javascript",
+            "url": "https://pritamnag18.github.io/2nd_Website/"
+        },
+        {
+            "cover": "/portfolio/3/three2.png",
+            "title": "Delicious",
+            "description": "Built a Food Delivery Website using ReactJS",
+            "url": "https://youtu.be/IXAxaBABVWQ"
+        },
+        {
+            "cover": "/portfolio/4/four.jpg",
+            "title": "Simple Calculator",
+            "description": "Built using Flutter",
+            "url": " "
+        }
+    ]
+}
