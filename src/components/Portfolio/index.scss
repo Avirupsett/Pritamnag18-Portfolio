@@ -16,16 +16,17 @@
         display: flex;
         gap: 15px;
         flex-wrap: wrap;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 
     .image-box {
         position: relative;
-        flex: 1 1 20%;
+        // flex: 1 1 20%;
+        width: 100%;
         height: 400px;
         overflow: hidden;
         border-radius: 10px;
-        max-width: calc(25% - 10px);
+        max-width: calc(24% - 10px);
 
         .portfolio-image {
             position: absolute;
@@ -124,10 +125,11 @@
             margin-left: 20px;
             max-width: 20px;
         }
-        .image-box{
-            height: 200px;
-            max-width: calc(50% - 10px);
-        }
+        // .image-box{
+        //     height: 200px;
+        //     width: 100%;
+        //     max-width: calc(50% - 10px);
+        // }
     }
 .container.portfolio-page .image-box {
     height: 275px;
@@ -152,7 +154,7 @@
     z-index: 3;
 }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
 .container.portfolio-page .image-box {
     height: 275px;
     width: 100%;
